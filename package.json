@@ -1,0 +1,23 @@
+{
+  "name": "pumper",
+  "version": "1.0.0",
+  "description": "pumper",
+  "main": "index.js",
+  "author": "punch",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-specifier-resolution=node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "crypto": "^1.0.1",
+    "date-fns": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "draftlog": "^1.0.12",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7",
+    "ws": "^7.4.3"
+  }
+}

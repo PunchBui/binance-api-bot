@@ -1,0 +1,1 @@
+export { stdInput } from './stdio'
